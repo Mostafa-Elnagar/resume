@@ -1,0 +1,176 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper, left=0.5in, right=0.5in, top=0.5in, bottom=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage{setspace} % Add to preamble
+
+% Define colors
+\definecolor{titlecolor}{RGB}{0,0,0}
+\definecolor{sectioncolor}{RGB}{30,64,175}
+
+% Configure hyperlinks
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+    linkcolor=blue,
+}
+
+% Section formatting
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{sectioncolor}}
+  {}
+  {0em}
+  {}
+  [\vspace{0.2em}\hrule\vspace{0.5em}]
+
+% Subsection formatting
+\titleformat{\subsection}[runin]
+  {\normalfont\large\bfseries}
+  {}
+  {0em}
+  {}
+
+% Remove paragraph indentation
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Customize lists
+\setlist[itemize]{leftmargin=1.5em, itemsep=0.1em, parsep=0pt, topsep=0.1em}
+
+\linespread{1.1}
+% [Keep preamble as-is, unchanged]
+
+\begin{document}
+
+% Header
+\begin{center}
+\huge\textbf{Mostafa Emad}\\
+\Large Data Analyst \\
+\vspace{0.2em}
+\normalsize
+\faIcon{envelope} \href{mailto:mostafaelnagar.ds@gmail.com}{mostafaelnagar.ds@gmail.com} 
+\hspace{0.5em} \faIcon{linkedin} \href{https://www.linkedin.com/in/mostafa-ds}{linkedin.com/in/mostafa-ds} 
+\hspace{0.5em} \faIcon{github} \href{https://github.com/Mostafa-Elnagar}{github.com/Mostafa-Elnagar} \\
+\hspace{0.5em} \faIcon{phone} +201117084837 
+\hspace{0.5em} \faIcon{map-marker-alt} New Damietta, Egypt 
+
+\end{center}
+
+% % %Data Engineer Summary
+% \section{PROFESSIONAL SUMMARY}
+% Data Engineer with a background in mathematics and computer science, experienced in building scalable data pipelines, managing ETL workflows, and integrating data from multiple sources. Proficient in Apache Airflow, Spark, SQL, Docker, and cloud environments. Developed automated data infrastructure to support analytics, reporting, and real-time data access across teams.
+% \section{PROFESSIONAL EXPERIENCE}
+
+% %Data Analyst Summary
+\section{PROFESSIONAL SUMMARY}
+Junior Data Analyst with a strong foundation in mathematics, computer science, and data storytelling. Proficient in Python (Pandas, Matplotlib), SQL, and Power BI for cleaning, analyzing, and visualizing complex data. Experienced in building dashboards and reports that reveal trends, track KPIs, and support business decisions. Eager to grow in a collaborative, data-driven environment.
+\section{PROFESSIONAL EXPERIENCE}
+
+% %% %Data Scientist Summary
+% \section{PROFESSIONAL SUMMARY}
+% Data Scientist with strong academic training in mathematics and computer science, focused on applied machine learning, data modeling, and statistical analysis. Experienced in Python, scikit-learn, TensorFlow, and Power BI. Built and deployed end-to-end solutions for pattern recognition, customer segmentation, and forecasting, supporting operational and strategic decisions.
+% \section{PROFESSIONAL EXPERIENCE}
+
+% % %% %Business Analyst Summary
+% \section{PROFESSIONAL SUMMARY}
+% Business Analyst with a foundation in data analytics and systems design, experienced in translating business needs into technical solutions. Skilled in SQL, Excel, Power BI, and workflow automation tools. Designed dashboards and process improvements that enhanced reporting, supported stakeholder decision-making, and streamlined cross-functional collaboration.
+% \section{PROFESSIONAL EXPERIENCE}
+
+\textbf{Information Technology Institute (ITI)} \hfill \textit{Port Said, Egypt} \\
+\textit{Data Engineer Trainee} \hfill \textit{Jun 2025 – Present}
+\begin{itemize}
+\item Currently enrolled in an intensive 4-month training program in data engineering and business intelligence.\\
+\end{itemize}
+
+
+
+\textbf{Rehabilitation Center (military services)} \hfill \textit{Cairo, Egypt} \\
+\textit{Data Specialist} \hfill \textit{May 2024 – Jun 2025} 
+\begin{itemize}
+    \item Managed 300+ visitor registrations daily in a high-pressure, client-facing environment.
+    \item Built an OCR ID card extractor, reducing post-registration data verification workload by over 2 hours daily.
+    \item Streamlined the data entry workflow, improving daily processing efficiency by 3 hours.
+    \item Achieved a 50\% reduction in overall registration time by redesigning the process.\\
+\end{itemize}
+
+\section{EDUCATION}
+
+\textbf{Damietta University} \hfill \textit{Egypt} \\
+\textit{Pre-Master’s in Computer Science} \hfill \textit{Sep 2023 – Jun 2024} \\
+\textbf{Relevant coursework:} Advanced Machine Learning, Image Processing, Research Methedologies, Computational Intelligence, Advanced Artificial Intelligence, Pattern Recognition and Data Mining\\
+
+\textbf{Al-Azhar University} \hfill \textit{Egypt} \\
+\textit{Bachelor of Science in Pure Mathematics and Computer Science} \hfill \textit{Sep 2019 – Jun 2023} \\
+ Grade: \textbf{Excellent with Honors}; ranked first in class. 
+
+ \textbf{Relevant coursework:}
+  \begin{itemize}
+    \item \textbf{Computer Science:} Data Structures \& Algorithms, Operating Systems, Database Systems, Systems Design, Image Processing, Artificial Intelligence
+    \item \textbf{Mathematics:} Graph Theory, Linear Algebra, Calculus, Statistics, Probability, Numerical Analysis, Operations Research, Discrete Mathematics, Functional Analysis\\
+  \end{itemize}
+
+
+\section{PROJECTS}
+
+\textbf{FordGoBike Data Pipeline} \hfill \href{https://github.com/Mostafa-Elnagar/FordGoBike-data-pipeline}{GitHub}
+\begin{itemize}
+  \item Orchestrated a data pipeline with Airflow, PostgreSQL, and Docker to process over 3 million trip records.
+  \item Delivered actionable insights through Power BI dashboard visualizations of ride data, leading to the identification of 4 key areas to fix the three most common types of user complaints.
+  \item Revealed that weekday peak hours had 30\% more rides, informing bike placement and staffing strategy through data extraction and data modeling.\\
+\end{itemize}
+
+\textbf{Bike Sharing Data Exploration – San Francisco Bay Area} \hfill \href{https://github.com/Mostafa-Elnagar/bikesharing_project}{GitHub}
+\begin{itemize}
+\item Uncovered that rides under 30 minutes are most common during work commutes (7–9 AM and 4–6 PM), indicating usage for short-distance daily transport.
+\item Revealed behavioral differences in ride duration—customers averaged 22 mins vs. 12 mins for subscribers, with male users riding the longest.\\
+\end{itemize}
+
+\textbf{Customer Churn Analysis Dashboard} \hfill \href{https://github.com/Mostafa-Elnagar/ChurnAnalysisDashboard}{GitHub}
+\begin{itemize}
+\item Monitored KPIs across 7043 customers, revealing a churn rate of 26.54\%.
+\item Quantified \$1.67M in revenue loss and tracked LTV before and after churn (\$2.28K vs \$2.55K), highlighting upsell opportunities and long-term value patterns.
+\item Uncovered that customers with fewer services (1–2) had the highest churn rate (>40\%) using a combo chart of churn vs. service count.\\
+\end{itemize}
+
+\textbf{LinkedIn Data Visualization Dashboard} \hfill \href{https://github.com/Mostafa-Elnagar/linkedin-dashboard}{GitHub}
+\begin{itemize}
+  \item Identified that 98\% of connections were in data-related field, indicating strong industry alignment.
+  \item Visualized the leading 10 affiliated companies via bar charts; ITI ranked highest.\\
+\end{itemize}
+
+\section{TECHNICAL SKILLS}
+
+% \begin{itemize}
+% \item \textbf{Programming Languages:} Python, Bash, DAX, Java
+% \item \textbf{Data Engineering:} Apache Airflow, Spark, Power Query, PostgreSQL, SQL Server, MongoDB, MySQL
+% \item \textbf{Business Intelligence:} Power BI, Excel, Tableau (basics)
+% \item \textbf{Machine Learning:} TensorFlow, PyTorch, Hugging Face, scikit-learn
+% \item \textbf{DevOps \& Cloud:} Docker, AWS, Git, GitHub Actions, CI/CD
+% \end{itemize}
+\begin{itemize}
+\item \textbf{Data Analysis \& Visualization:} Power BI, Excel, Pandas, NumPy, Matplotlib, Seaborn
+\item \textbf{Programming:} Python, Bash, DAX, Java
+\item \textbf{Data Engineering:} Airflow, Spark, Power Query, PostgreSQL, SQL Server, MySQL, MongoDB
+\item \textbf{Machine Learning:} Scikit-learn, TensorFlow (basic), PyTorch (basic)
+\item \textbf{Cloud \& DevOps:} Docker, AWS, Git, GitHub Actions
+\end{itemize}
+
+\section{CERTIFICATIONS}
+\begin{itemize}
+\item \textbf{AWS Public Cloud Practitioner – NTI AWS Academy} \hfill \textit{Feb 2024}
+\item \textbf{Applied Data Science Lab – WorldQuant University} \hfill \textit{Jul 2023}
+\item \textbf{Udacity – Data Analyst Nanodegree} \hfill \textit{Oct 2022}
+\end{itemize}
+
+\section{LANGUAGES}
+
+\begin{itemize}
+\item \textbf{English:} Fluent
+\item \textbf{Arabic:} Native
+\end{itemize}
+
+\end{document}
