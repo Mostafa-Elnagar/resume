@@ -140,6 +140,10 @@ INPUT C:\Users\hamed\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\hamed\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome5\fa5free1.enc
 INPUT C:\Users\hamed\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome5\fa5brands0.enc
 INPUT C:\Users\hamed\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome5\fa5free2.enc
+INPUT C:\Users\hamed\AppData\Local\Programs\MiKTeX\tex\latex\base\omlcmr.fd
+INPUT C:\Users\hamed\AppData\Local\Programs\MiKTeX\tex\latex\base\omlcmr.fd
+INPUT C:\Users\hamed\AppData\Local\Programs\MiKTeX\tex\latex\base\omlcmr.fd
+INPUT C:\Users\hamed\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
 INPUT mostafa_elnagar_resume.aux
 INPUT .\mostafa_elnagar_resume.out
 INPUT .\mostafa_elnagar_resume.out
@@ -153,6 +157,8 @@ INPUT C:\Users\hamed\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\hamed\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\hamed\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\hamed\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\hamed\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\hamed\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\hamed\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\hamed\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\hamed\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
